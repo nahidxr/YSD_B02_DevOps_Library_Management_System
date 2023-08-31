@@ -104,7 +104,7 @@ Prepare EC2 Launch template to run with Auto-scaling. Configure a Route 53 domai
 
 ### Architecture Diagram
 
-![AWS cloud deployment architecture diagram](./data/AWS-server-deploy-architecture-diagram.png)
+![AWS cloud deployment architecture diagram](./images/aws-deoloyment-diagram.png)
 
 ## Project Setup
 
