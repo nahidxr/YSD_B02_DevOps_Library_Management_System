@@ -160,6 +160,7 @@ Creating new commit in the repository will trigger a new build with following st
 - Git Clone
 - Build Artifact
 - Push app to EC2
+- [Run app using java service](./ansible-playbook/java-project-deploy-to-ec2)
 - Update Running App
 
 ## Browse the application from a browser
