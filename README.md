@@ -167,6 +167,5 @@ Creating new commit in the repository will trigger a new build with following st
 - Visit https://your-domain.com from your local browser.
 - Use username 'admin' and password 'admin' to login to the dashboard.
 
-Thank you.
 
 
