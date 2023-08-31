@@ -128,8 +128,7 @@ Prepare one virtual machines in RHEL 9 equivalent environment.
 
 #### Install Jenkins by Ansible
 
-Follow this [jenkins-docker-setup-playbook](./ansible-playbook/docker-jenkins-installation) to setup Jenkins server by running Ansible playbook. Please note that we only need [jenkins-setup](https://github.com/mohammadrony/jenkins-docker-setup-playbook/tree/main/jenkins-setup) role for this application.
-
+Follow this [jenkins-docker-setup-playbook](./ansible-playbook/docker-jenkins-installation) to setup Jenkins server by running Ansible playbook.
 #### Configure Jenkins server tools and credentials
 
 Tools setup:
