@@ -124,9 +124,9 @@ Prepare one virtual machines in RHEL 9 equivalent environment.
 - Create RDS database
 - Create Route 53 domain
 
-### Setup Gitlab repository
+### Setup Github repository
 
-- Create Gitlab repository
+- Create Github repository
 - Configure SSH key with developer and Gitlab.
 
 ### Prepare Jenkins server
