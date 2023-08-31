@@ -18,7 +18,7 @@ Login
 
 for login you may use username as 'admin' and password as 'admin'.
 
-# On Premise Server Provision and deployment using CI/CD Pipeline 
+# On Premise Server Provision and Deployment using CI/CD Pipeline 
 
 A complete CI/CD project with Jenkins pipeline to build and deploy a Github repository in kubernetes cluster.
 
@@ -92,7 +92,7 @@ Creating new commit in the repository will trigger a new build with following st
 - Use username 'admin' and password 'admin' to login to the dashboard.
 
 
-# AWS Server Provision and deployment using CI/CD Pipeline
+# AWS Server Provision and Deployment using CI/CD Pipeline
 
 A complete CI/CD project with Jenkins pipeline to build and deploy a GitLab repository in AWS cloud.
 
