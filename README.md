@@ -1,4 +1,4 @@
-# ysd_B02_DevOps_Library_Management_System
+# YSD_B02_DevOps_Library_Management_System
 
 Library Management System
 
