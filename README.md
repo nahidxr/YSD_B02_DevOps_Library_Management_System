@@ -87,6 +87,8 @@ Creating new commit in the repository will trigger a new build with following st
 - Deploy App in Kubernetes
 ## PIPELINE WORKFLOW
 This Jenkins pipeline is designed to automate the build, analysis, deployment, execution, and monitoring process for a project. It consists of several stages, each performing specific tasks to ensure code quality, build Docker images, perform vulnerability scanning, push the image to a Docker registry, deploy the application to a Kubernetes cluster, execute the application, and monitor its performance. Slack and email notifications are sent to keep the team informed about the build status.
+![On-premise pipeline](./images/on-premise-pipeline.png)
+
 
 ## Browse the application from a browser
 
@@ -165,7 +167,7 @@ Creating new commit in the repository will trigger a new build with following st
 - Update Running App
 ## PIPELINE WORKFLOW
 In this module, we will configure a Jenkins Pipeline job to automate the build, test, and deployment process. The pipeline will integrate with Git, use Maven for building the project, and deploy the application to an EC2 instance using Ansible.
-
+![AWS pipeline](./images/aws-pipeline.png)
 
 ## Browse the application from a browser
 
