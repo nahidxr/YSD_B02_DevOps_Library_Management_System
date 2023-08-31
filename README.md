@@ -22,8 +22,6 @@ for login you may use username as 'admin' and password as 'admin'.
 
 A complete CI/CD project with Jenkins pipeline to build and deploy a Github repository in kubernetes cluster.
 
-_Follow [aws branch](https://github.com/mohammadrony/Java-app-CI-CD-pipeline/tree/aws) for AWS cloud deployment steps._
-
 ## Project Description
 
 Initially, configure a Kubernetes cluster with 1 master node, 1 worker node and a Jenkins server with Docker and Kubectl setup by Ansible playbook. Then automate build and publish of a Java application with MySQL database in Kubernetes cluster using CI/CD pipeline.
@@ -40,13 +38,13 @@ Prepare three virtual machines in RHEL 9 equivalent environment. One of them is 
 
 ### Prepare Kubernetes cluster using Ansible
 
-Follow this [kubernetes-cluster-setup-playbook](https://github.com/mohammadrony/kubernetes-cluster-setup-playbook) to setup Kubernetes cluster by running an Ansible playbook.
+Follow this [kubernetes-cluster-setup-playbook](https://github.com/nahidxr/ansible-playbook/kubernetes-installation) to setup Kubernetes cluster by running an Ansible playbook.
 
 ### Prepare Jenkins server
 
 #### Install Jenkins, Docker, and Kubectl by Ansible
 
-Follow this [jenkins-docker-setup-playbook](https://github.com/mohammadrony/jenkins-docker-setup-playbook) to install Jenkins server, Docker, Kubectl by running an Ansible playbook.
+Follow this [jenkins-docker-setup-playbook](https://github.com/nahidxr/ansible-playbook/docker-jenkins-installation) to install Jenkins server, Docker, Kubectl by running an Ansible playbook.
 
 #### Plugins and tools setup from Jenkins dashboard
 
