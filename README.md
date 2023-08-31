@@ -38,13 +38,13 @@ Prepare three virtual machines in RHEL 9 equivalent environment. One of them is 
 
 ### Prepare Kubernetes cluster using Ansible
 
-Follow this [kubernetes-cluster-setup-playbook](https://github.com/nahidxr/ansible-playbook/kubernetes-installation) to setup Kubernetes cluster by running an Ansible playbook.
+Follow this [kubernetes-cluster-setup-playbook](./ansible-playbook/kubernetes-installation) to setup Kubernetes cluster by running an Ansible playbook.
 
 ### Prepare Jenkins server
 
 #### Install Jenkins, Docker, and Kubectl by Ansible
 
-Follow this [jenkins-docker-setup-playbook](https://github.com/nahidxr/ansible-playbook/docker-jenkins-installation) to install Jenkins server, Docker, Kubectl by running an Ansible playbook.
+Follow this [jenkins-docker-setup-playbook](./ansible-playbook/docker-jenkins-installation) to install Jenkins server, Docker, Kubectl by running an Ansible playbook.
 
 #### Plugins and tools setup from Jenkins dashboard
 
@@ -113,7 +113,7 @@ Prepare one virtual machines in RHEL 9 equivalent environment.
 ### Setup AWS services
 
 - Create VPC, subnets, and route tables
-- Create EC2 instance launch template with a [script](./data/launch-template-user-data-personal.txt) (user-data)
+- Create EC2 instance launch template
 - Create SSL/TLS Certificate for Load balancer
 - Create Auto scaling group and Load balancer
 - Create RDS database
